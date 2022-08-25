@@ -48,7 +48,7 @@ def Character_Location():
         if flag == 1:
             break
 
-Character_Row = i
+    Character_Row = i
     Current_Row = i
     Character_Col = j
     Current_Col = j
@@ -181,12 +181,6 @@ def Meet_Monster():
             Print_Result('YOU HAVE BEEN KILLED BY ' + Monster[i][2]+'..')
 
     return case
-
-
-# 벽 만났을 때 or 제자리에 있는 경우
-# 주인공 정보 = 레벨(0), 체력(1), 공격력(2), 방어력(3), 경험치(4), 무기(5), 방어구(6), 장신구(7), 최대 체력(8)
-#def Meet_Wall(Grid, Character, Row, Col):
-#   return
 
 
 # 보스 몬스터 만났을 때
